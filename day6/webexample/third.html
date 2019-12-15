@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>맛보기 HTML</title>
+ </head>
+<body>
+ <h1>17시 4분 10초</h1>
+ <hr>
+ <h1></h1>
+ <script>
+   var h1dom = document.getElementsByTagName("h1")[1];
+   var d = new Date();
+   h1dom.textContent = d.getHours()+"시"+
+                       d.getMinutes()+"분"+
+                       d.getSeconds()+"초";
+ </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# remDr$open() 수행 이후에 작동
+
+remDr$setWindowSize(1280,1024, winHand = "current")  
+# winHand = "current" 없어도 작동

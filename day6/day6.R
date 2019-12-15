@@ -1,0 +1,20 @@
+?read.csv
+search()
+installed.packages()
+??read_excel()
+install.packages("readxl")
+library(readxl)
+excel_data_ex <- read_excel("C:/Rstudy/book/data_ex.xls")
+#excel_data_ex <- read_excel("book/data_ex.xls")
+View(excel_data_ex)
+getwd()
+
+ID <-c(1,2,3,4,5)
+SEX <-c("F","M","F","M","F")
+data_ex <- data.frame(ID=ID, SEX=SEX)
+save(data_ex,file="data_ex.rda")
+load("C:/Rstudy/data_ex.rda")
+View(data_ex)
+
+dim(data_ex)
+ls(data_ex)

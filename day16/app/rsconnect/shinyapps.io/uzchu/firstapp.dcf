@@ -1,0 +1,12 @@
+name: firstapp
+title: firstapp
+username:
+account: uzchu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1452476
+bundleId: 2579431
+url: https://uzchu.shinyapps.io/firstapp/
+when: 1573457775.09213
+asMultiple: FALSE
+asStatic: FALSE

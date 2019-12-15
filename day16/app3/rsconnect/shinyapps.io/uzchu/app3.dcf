@@ -1,0 +1,12 @@
+name: app3
+title: app3
+username:
+account: uzchu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1452594
+bundleId: 2579561
+url: https://uzchu.shinyapps.io/app3/
+when: 1573461599.30917
+asMultiple: FALSE
+asStatic: FALSE
